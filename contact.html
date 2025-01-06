@@ -1,0 +1,159 @@
+<html>
+	<head>
+		<title>Contact Me Page</title>
+		<link rel="icon" href="images/logo.png" type="images/x-icon">
+		<link rel="stylesheet" href="contact.css" type="text/css">
+	</head>
+
+<body>
+	<div class="container">
+          <table>
+			<tr>
+				<td class="header-cell" colspan="8">
+					<span class="marquee-text">💗 Welcome to My Magical Space 💗</span>
+				</td>
+			</tr>
+		</table>
+        
+		<table class="nav-table">
+            <tr>
+                <td><img src="images/logo.png" alt="Logo" class="logo"></td>
+                <td><a href="index.html">🏠 Home</a></td>
+                <td><a href="about-me.html">💝 About Me</a></td>
+                <td><a href="education.html">📚 Education</a></td>
+                <td><a href="experience.html">✨ Experience</a></td>
+                <td><a href="hobbies.html">🎨 Hobbies</a></td>
+                <td><a href="gallery.html">📷 Gallery</a></td>
+                <td><a href="contact.html">💌 Contact</a></td>
+            </tr>
+        </table>
+        
+		<table class="contact-content">
+    <tr>
+        <td colspan="2" class="header">
+            <h2>✨ Get in Touch ✨</h2>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <form name="form1" method="post" action="mailto:nabilahaini36@gmail.com">
+                <table class="contact-form">
+                    <tr>
+                        <td class="form-group">
+                            <label for="name">Your Name 💝</label>
+                            <input type="text" id="name" name="name" required aria-label="Your Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form-group">
+                            <label for="email">Your Email 💌</label>
+                            <input type="email" id="email" name="email" required aria-label="Your Email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form-group">
+                            <label for="phone">Phone ✨</label>
+                            <input type="text" id="phone" name="phone" required aria-label="Phone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form-group">
+                            <label>Gender ✨</label><br>
+                            <label><input type="radio" name="gender" value="male" required> Male</label>
+                            <label><input type="radio" name="gender" value="female" required> Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form-group">
+                            <label for="state">Your State ✨</label>
+                            <select id="state" name="state" required aria-label="Your State">
+								<option value="" disabled selected>Select your state</option>
+								<option value="joh">Johor</option>
+								<option value="ked">Kedah</option>
+								<option value="kel">Kelantan</option>
+								<option value="kl">Kuala Lumpur</option>
+								<option value="lab">Labuan</option>
+								<option value="mel">Melaka</option>
+								<option value="ns">Negeri Sembilan</option>
+								<option value="pah">Pahang</option>
+								<option value="pen">Pulau Pinang</option>
+								<option value="per">Perak</option>
+								<option value="perlis">Perlis</option>
+								<option value="ptj">Putrajaya</option>
+								<option value="sabah">Sabah</option>
+								<option value="sar">Sarawak</option>
+								<option value="sel">Selangor</option>
+								<option value="ter">Terengganu</option>
+							</select>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form-group">
+                            <label for="message">Your Message 🌸</label>
+                            <textarea id="message" name="message" rows="5" required aria-label="Your Message"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form-group">
+                            <button type="submit" class="submit-button">Send Message ✨</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </td>
+    </tr>
+</table>
+
+
+        <table>
+            <tr>
+                <td colspan="8">
+                    <footer>
+                         <div class="social-media">
+                            <a href="https://www.instagram.com/nienl._?igsh=MTF0cXBreXVlZmtu" target="_blank">
+                                <img src="images/ins.png" alt="Instagram">
+                            </a>
+                            <a href="mailto:nabilahaini36@gmail.com" target="_blank">
+                                <img src="images/email.png" alt="Email">
+                            </a>
+                            <a href="https://www.tiktok.com/@missjanee8?_t=ZS-8sbFUgdvRkQ&_r=1" target="_blank">
+                                <img src="images/tiktok.png" alt="Tiktok">
+                            </a>
+                            <a href="https://www.linkedin.com/in/nur-aainii-nabilah-binti-mohamad-nasir-2037b0307/" target="_blank">
+                                <img src="images/link.png" alt="LinkedIn">
+                            </a>
+                        </div>
+                        <div class="copyright">
+                            <p>✨ Crafted with lots of love and sparkles ✨</p>
+                            <p>🌸 2024 Aainii Nabilah 🌸</p>
+                        </div>
+                    </footer>
+                </td>
+            </tr>
+        </table>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Jump to top</button>
+    </div>
+	
+<script>
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+}
+</script>
+
+</body>
+</html>

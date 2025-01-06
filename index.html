@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title>Home Page</title>
+		<link rel="icon" href="images/logo.png" type="images/x-icon">
+		<link rel="stylesheet" href="index.css" type="text/css">
+	</head>
+
+<body>
+    <div class="container">
+       <table>
+			<tr>
+				<td class="header-cell" colspan="8">
+					<span class="marquee-text">💗 Welcome to My Magical Space 💗</span>
+				</td>
+			</tr>
+		</table>
+
+        <table class="nav-table">
+            <tr>
+                <td><img src="images/logo.png" alt="Logo" class="logo"></td>
+                <td><a href="index.html">🏠 Home</a></td>
+                <td><a href="about-me.html">💝 About Me</a></td>
+                <td><a href="education.html">📚 Education</a></td>
+                <td><a href="experience.html">💼 Experience</a></td>
+                <td><a href="hobbies.html">🎨 Hobbies</a></td>
+                <td><a href="gallery.html">📷 Gallery</a></td>
+                <td><a href="contact.html">💌 Contact</a></td>
+            </tr>
+        </table>
+       
+        <table>
+            <tr>
+                <td colspan="8">
+                    <div class="profile-section">
+						 <img src="images/cat.gif" alt="Fun Animation" class="profile-gif">
+                        <div class="profile-content">
+                            <h1>Hi! I'm <span class="highlight">Aainii</span> 🌟</h1>
+                            <p>✨Information Management Student | 🎨  Art & Makeup Lover</p>
+                            <p>💕 Turning Dreams into Achievements 💕</p>
+                            <a href="about-me.html" class="button"> Get to know me ✨</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <table>
+            <tr>
+                <td colspan="8">
+                    <footer>
+                         <div class="social-media">
+                            <a href="https://www.instagram.com/nienl._?igsh=MTF0cXBreXVlZmtu" target="_blank">
+                                <img src="images/ins.png" alt="Instagram">
+                            </a>
+                            <a href="mailto:nabilahaini36@gmail.com" target="_blank">
+                                <img src="images/email.png" alt="Email">
+                            </a>
+                            <a href="https://www.tiktok.com/@missjanee8?_t=ZS-8sbFUgdvRkQ&_r=1" target="_blank">
+                                <img src="images/tiktok.png" alt="Tiktok">
+                            </a>
+                            <a href="https://www.linkedin.com/in/nur-aainii-nabilah-binti-mohamad-nasir-2037b0307/" target="_blank">
+                                <img src="images/link.png" alt="LinkedIn">
+                            </a>
+                        </div>
+                        <div class="copyright">
+                            <p>✨ Crafted with lots of love and sparkles ✨</p>
+                            <p>🌸 2024 Aainii Nabilah 🌸</p>
+                        </div>
+                    </footer>
+                </td>
+            </tr>
+        </table>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Jump to top</button>
+    </div>
+	
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<html>
+	<head>
+		<title>About Me Page</title>
+		<link rel="icon" href="images/logo.png" type="images/x-icon">
+		<link rel="stylesheet" href="about-me.css" type="text/css">
+	</head>
+
+<body>
+    <div class="container">
+ 
+		<table>
+			<tr>
+				<td class="header-cell" colspan="8">
+					<span class="marquee-text">💗 Welcome to My Magical Space 💗</span>
+				</td>
+			</tr>
+		</table>
+        
+        <table class="nav-table">
+            <tr>
+                <td><img src="images/logo.png" alt="Logo" class="logo"></td>
+                <td><a href="index.html">🏠Home</a></td>
+                <td><a href="about-me.html">💝About Me</a></td>
+                <td><a href="education.html">📚 Education</a></td>
+                <td><a href="experience.html">💼 Experience</a></td>
+                <td><a href="hobbies.html">🎨 Hobbies</a></td>
+                <td><a href="gallery.html">📷 Gallery</a></td>
+                <td><a href="contact.html">💌 Contact</a></td>
+            </tr>
+        </table>
+		
+<table>
+	<tr>
+        <td colspan="2" class="header">
+            <h2>✨ All About Me ✨</h2>
+        </td>
+    </tr>
+	
+	<tr>
+		<td colspan="8">
+          <div class="profile-section">
+			<div class="media-container">
+				<img src="images/g2.jpg" alt="Profile Picture" class="profile-image">
+					<figure class="video-container">
+						<video controls autoplay muted>
+							<source src="images/lola.mp4" type="video/mp4">
+						</video>
+					</figure>
+				<img src="images/g3.jpg" alt="Profile Picture" class="profile-image">
+			</div>
+
+		<div class="profile-content">
+				<h2 class="section-header" data-emoji="👋">Personal Information</h2>
+            <ul class="bio-list">
+                <li><strong>Full Name:</strong> Nur '<em>Aainii</em> Nabilah Binti Mohamad Nasir</li>
+                <li><strong>Nickname:</strong> <em>Nini</em></li>
+                <li><strong>Born On:</strong> 8<sup>th</sup> January 2004</li>
+                <li><strong>Languages:</strong> English, <abbr title="Bahasa Malaysia">BM</abbr>, and Mandarin</li>
+                <li><strong>Address:</strong> Sungai Besi, <abbr title="Kuala Lumpur">KL</abbr></li>
+            </ul>
+				
+				<a href="resume.pdf" target="blank" class="button" style="display: block; text-align: center; margin: auto; width: fit-content;">My Resume</a>
+
+				<h2 class="section-header" data-emoji="🎵">Favorite Tracks</h2>
+            <ol class="song-list">
+                <li>Separuh Aku</li>
+                <li>Jangan Hilangkan Dia</li>
+                <li>Anugerah Terindah</li>
+                <li>Deja Vu</li>
+                <li>Mirrors</li>
+                <li>Young and Beautiful</li>
+                <li>Radio</li>
+            </ol>
+
+            <figure class="audio-container">
+                <figcaption>🎧 Latest Hits I Love 🎧</figcaption>
+                <audio controls>
+                    <source src="lagu1.mpeg" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </figure>
+
+				<h2 class="section-header" data-emoji="✨">Favorite Quote</h2>
+            <div class="quote">
+                “Life isn't about finding yourself. Life is about creating yourself.”
+                <pre style="margin-top: 1rem; color: var(--secondary-color);">- George Bernard Shaw</pre>
+            </div>
+
+				<h2 class="section-header" data-emoji="🌟">Personality Traits</h2>
+            <ul class="bio-list">
+                <li><strong>Optimistic</strong></li>
+                <li><em>Creative</em></li>
+                <li><u>Hardworking</u></li>
+                <li><strong><em>Empathetic</em></strong></li>
+            </ul>
+
+            <div class="fun-fact">
+                <h2 class="section-header" data-emoji="💡">Fun Fact</h2>
+                <p>I can sing in <strong>three</strong> different languages and have a knack for solving Rubik's cubes in <em>under 2 minutes</em>!</p>
+            </div>
+			
+        </div>
+		
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+        <td colspan="8" class="button-container">
+            <a href="education.html" class="button">My Academic Journey✨</a>
+        </td>
+    </tr>
+</table>
+
+        <table>
+            <tr>
+                <td colspan="8">
+                    <footer>
+                         <div class="social-media">
+                            <a href="https://www.instagram.com/nienl._?igsh=MTF0cXBreXVlZmtu" target="_blank">
+                                <img src="images/ins.png" alt="Instagram">
+                            </a>
+                            <a href="mailto:nabilahaini36@gmail.com" target="_blank">
+                                <img src="images/email.png" alt="Email">
+                            </a>
+                            <a href="https://www.tiktok.com/@missjanee8?_t=ZS-8sbFUgdvRkQ&_r=1" target="_blank">
+                                <img src="images/tiktok.png" alt="Tiktok">
+                            </a>
+                            <a href="https://www.linkedin.com/in/nur-aainii-nabilah-binti-mohamad-nasir-2037b0307/" target="_blank">
+                                <img src="images/link.png" alt="LinkedIn">
+                            </a>
+                        </div>
+                        <div class="copyright">
+                            <p>✨ Crafted with lots of love and sparkles ✨</p>
+                            <p>🌸 2024 Aainii Nabilah 🌸</p>
+                        </div>
+                    </footer>
+                </td>
+            </tr>
+        </table>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Jump to top</button>
+    </div>
+	
+<script>
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+}
+</script>
+
+</body>
+</html>

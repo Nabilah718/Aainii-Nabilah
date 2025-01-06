@@ -1,0 +1,151 @@
+<html>
+	<head>
+		<title>Gallery Page</title>
+		<link rel="icon" href="images/logo.png" type="images/x-icon">
+		<link rel="stylesheet" href="gallery.css" type="text/css">
+	</head>
+
+<body>
+	<div class="container">
+        
+         <table>
+			<tr>
+				<td class="header-cell" colspan="8">
+					<span class="marquee-text">💗 Welcome to My Magical Space 💗</span>
+				</td>
+			</tr>
+		</table>
+        
+		<table class="nav-table">
+            <tr>
+                <td><img src="images/logo.png" alt="Logo" class="logo"></td>
+                <td><a href="index.html">🏠 Home</a></td>
+                <td><a href="about-me.html">💝 About Me</a></td>
+                <td><a href="education.html">📚 Education</a></td>
+                <td><a href="experience.html">✨ Experience</a></td>
+                <td><a href="hobbies.html">🎨 Hobbies</a></td>
+                <td><a href="gallery.html">📷 Gallery</a></td>
+                <td><a href="contact.html">💌 Contact</a></td>
+            </tr>
+        </table>
+        
+    <table class="gallery-table">
+    <tr>
+        <td colspan="4" class="header">
+            <h2>✨ My Gallery ✨</h2>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="gallery-item">
+                <img src="images/g4.jpg" alt="Photo 1">
+            </div>
+        </td>
+        <td>
+            <div class="gallery-item">
+                <img src="images/g5.jpg" alt="Photo 2">
+            </div>
+        </td>
+        <td>
+            <div class="gallery-item">
+                <img src="images/g6.jpg" alt="Photo 3">
+            </div>
+        </td>
+        <td>
+            <div class="gallery-item">
+                <img src="images/g7.jpg" alt="Photo 4">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="gallery-item">
+                <img src="images/g8.jpg" alt="Photo 5">
+            </div>
+        </td>
+        <td>
+            <div class="gallery-item">
+                <img src="images/g9.jpg" alt="Photo 6">
+            </div>
+        </td>
+        <td>
+            <div class="gallery-item">
+                <img src="images/g10.jpg" alt="Photo 7">
+            </div>
+        </td>
+        <td>
+            <div class="gallery-item">
+                <img src="images/g11.jpg" alt="Photo 8">
+            </div>
+        </td>
+    </tr>
+   
+   <tr>
+		<td colspan="4" class="video-header" align="center">
+			<h3>📽 My Favorite Movie 📽</h3>
+				<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ekFm9Y-lsAc?si=2E2L-OTKJlev4yER" title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>    
+		</td>
+	</tr>
+
+
+	<tr>
+        <td colspan="8" class="button-container">
+            <a href="contact.html" class="button">Connect with Me✨</a>
+        </td>
+    </tr>
+
+</table>
+
+        <table>
+            <tr>
+                <td colspan="8">
+                    <footer>
+                         <div class="social-media">
+                            <a href="https://www.instagram.com/nienl._?igsh=MTF0cXBreXVlZmtu" target="_blank">
+                                <img src="images/ins.png" alt="Instagram">
+                            </a>
+                            <a href="mailto:nabilahaini36@gmail.com" target="_blank">
+                                <img src="images/email.png" alt="Email">
+                            </a>
+                            <a href="https://www.tiktok.com/@missjanee8?_t=ZS-8sbFUgdvRkQ&_r=1" target="_blank">
+                                <img src="images/tiktok.png" alt="Tiktok">
+                            </a>
+                            <a href="https://www.linkedin.com/in/nur-aainii-nabilah-binti-mohamad-nasir-2037b0307/" target="_blank">
+                                <img src="images/link.png" alt="LinkedIn">
+                            </a>
+                        </div>
+                        <div class="copyright">
+                            <p>✨ Crafted with lots of love and sparkles ✨</p>
+                            <p>🌸 2024 Aainii Nabilah 🌸</p>
+                        </div>
+                    </footer>
+                </td>
+            </tr>
+        </table>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Jump to top</button>
+    </div>
+	
+<script>
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+}
+</script>
+
+</body>
+</html>
